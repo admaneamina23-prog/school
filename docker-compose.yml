@@ -1,5 +1,5 @@
 services:
-  mysqldb:
+  mysqldb: ##test
     image: mysql:5.7
     restart: unless-stopped
     environment:
